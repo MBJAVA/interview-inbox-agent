@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": "m07a",
+      "thread_id": "t07",
+      "from": "Ben Ortiz <ben@orbitly.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Orbitly interview: Software Engineer (Mid-level)",
+      "date": "2026-10-30T10:00:00-07:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe'd like to invite you to interview for the Software Engineer (mid-level) role at Orbitly on Tuesday, November 10, 2026 at 2:00 PM PT via Zoom. It will be a 60-minute coding interview plus a 30-minute behavioral chat.\n\nBen Ortiz, Orbitly",
+      "attachments": []
+    },
+    {
+      "id": "m07b",
+      "thread_id": "t07",
+      "from": "Ben Ortiz <ben@orbitly.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Re: Orbitly interview: Software Engineer (Mid-level)",
+      "date": "2026-11-04T08:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nApologies, our interviewer has a conflict. Could we reschedule your interview to Friday, November 13, 2026 at 11:00 AM PT? Same format and same interviewers, just the new time.\n\nBen",
+      "attachments": []
+    }
+  ]
+}

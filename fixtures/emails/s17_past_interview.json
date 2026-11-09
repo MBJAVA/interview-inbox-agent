@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m17a",
+      "thread_id": "t17",
+      "from": "Hana Sato <hana@oakridge.io>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Confirmed: Oakridge coding interview",
+      "date": "2026-10-29T10:00:00-07:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThis confirms your coding interview for the Software Engineer (mid-level) role at Oakridge on Monday, November 2, 2026 at 10:00 AM PT via Zoom.\n\nHana Sato, Oakridge",
+      "attachments": []
+    }
+  ]
+}

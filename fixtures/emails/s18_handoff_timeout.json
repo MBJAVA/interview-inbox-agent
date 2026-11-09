@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m18a",
+      "thread_id": "t18",
+      "from": "Reese Ward <reese@summittalent.co>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Interview request - Backend Engineer",
+      "date": "2026-11-04T11:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nOne of my clients (I can't name them until the next step) would like to set up a coding interview for a Senior Backend Engineer role on Wednesday, November 18, 2026 at 10:00 AM PT.\n\nReese Ward, Summit Talent",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "messages": [
+    {
+      "id": "md1",
+      "thread_id": "td1",
+      "from": "Kai Morgan <kai@northwindlabs.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Northwind Labs interview: Senior Software Engineer, Payments",
+      "date": "2026-11-02T10:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe'd like to invite you to interview for the Senior Software Engineer, Payments role at Northwind Labs on Tuesday, November 10, 2026 at 10:00 AM PT via Zoom: a 60-minute coding interview.\n\nJob description: https://northwindlabs.com/jobs/senior-software-engineer-payments\n\nKai Morgan, Northwind Labs",
+      "attachments": []
+    },
+    {
+      "id": "md2",
+      "thread_id": "td2",
+      "from": "Kai Morgan <kai@northwindlabs.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Next round at Northwind Labs",
+      "date": "2026-11-06T09:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nNice work on the coding interview! We'd like to move you to the next round with the team on Thursday, November 12, 2026 at 1:00 PM PT. It's the system design round for the Senior Software Engineer, Payments role.\n\nKai",
+      "attachments": []
+    },
+    {
+      "id": "md3",
+      "thread_id": "td2",
+      "from": "Kai Morgan <kai@northwindlabs.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Re: Next round at Northwind Labs",
+      "date": "2026-11-07T09:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nSmall change: can we reschedule the system design round to Friday, November 13, 2026 at 11:00 AM PT? Same interviewers and same format.\n\nKai",
+      "attachments": []
+    },
+    {
+      "id": "md4",
+      "thread_id": "td2",
+      "from": "Kai Morgan <kai@northwindlabs.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Re: Next round at Northwind Labs",
+      "date": "2026-11-16T09:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThank you for your time with the team. Unfortunately, we have decided not to move forward at this time. We appreciated getting to know you.\n\nKai",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": "m08a",
+      "thread_id": "t08",
+      "from": "Ivy Chen <ivy@fernway.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Fernway interview: Senior Software Engineer",
+      "date": "2026-10-29T09:00:00-07:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nYou're invited to a 60-minute coding interview for the Senior Software Engineer role at Fernway on Wednesday, November 11, 2026 at 10:00 AM PT via Zoom.\n\nIvy Chen, Fernway",
+      "attachments": []
+    },
+    {
+      "id": "m08b",
+      "thread_id": "t08",
+      "from": "Ivy Chen <ivy@fernway.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Re: Fernway interview: Senior Software Engineer",
+      "date": "2026-11-04T12:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe need to reschedule your interview to Monday, November 16, 2026 at 10:00 AM PT. Also, the round will now be a system design interview instead of coding, since you'll meet our infrastructure lead.\n\nIvy",
+      "attachments": []
+    }
+  ]
+}

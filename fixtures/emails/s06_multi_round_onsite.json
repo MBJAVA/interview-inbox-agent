@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m06a",
+      "thread_id": "t06",
+      "from": "Rita Osei <rita.osei@quillstack.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Your Quillstack onsite: Senior Software Engineer",
+      "date": "2026-11-02T13:10:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe're excited to host you for the onsite loop for the Senior Software Engineer role on Friday, November 20, 2026 at 9:30 AM PT at our San Francisco office.\n\nSchedule:\n1. Coding (60 min)\n2. System design (60 min)\n3. Low-level design / object-oriented design (45 min)\n4. Behavioral with the hiring manager (45 min)\n\nSee you soon,\nRita Osei, Quillstack Recruiting",
+      "attachments": []
+    }
+  ]
+}

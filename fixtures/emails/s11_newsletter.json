@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m11a",
+      "thread_id": "t11",
+      "from": "Tech Careers Weekly <newsletter@techcareersweekly.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "This Week in Tech Careers: 10 interview tips that actually work",
+      "date": "2026-11-04T06:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "TECH CAREERS WEEKLY - Issue #212\n\n10 interview tips that actually work: practice system design out loud, prepare STAR stories, and ask good questions at the end of your interview.\n\nAlso this week: salary negotiation basics.\n\nYou're receiving this newsletter because you subscribed. Unsubscribe | Manage preferences",
+      "attachments": []
+    }
+  ]
+}

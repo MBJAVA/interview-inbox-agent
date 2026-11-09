@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": "m09a",
+      "thread_id": "t09",
+      "from": "Noah Park <noah@granitesys.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Granite Systems interview: Senior Software Engineer",
+      "date": "2026-10-28T09:00:00-07:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe'd like to invite you to a coding interview for the Senior Software Engineer position at Granite Systems on Thursday, November 19, 2026 at 3:00 PM PT via Zoom.\n\nNoah Park, Granite Systems",
+      "attachments": []
+    },
+    {
+      "id": "m09b",
+      "thread_id": "t09",
+      "from": "Noah Park <noah@granitesys.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Re: Granite Systems interview: Senior Software Engineer",
+      "date": "2026-11-04T17:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThank you for your interest in Granite Systems. Unfortunately, the team has decided not to move forward with your candidacy at this time, and we've cancelled the upcoming interview.\n\nWe wish you the best,\nNoah",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "messages": [
+    {
+      "id": "tset01",
+      "thread_id": "tset-a",
+      "from": "Priya Raman <priya.raman@talent.brightharbor.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Brightharbor Payments - Senior Backend Engineer - Virtual Onsite",
+      "date": "2026-11-04T10:15:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nGreat news: the team would like to move you to the virtual onsite for the Senior Backend Engineer role on our Payments Platform team.\n\nThe onsite is on Friday, November 13, 2026 at 10:00 AM PT (calendar invite attached) and has two back-to-back sessions over Zoom:\n- Coding (45 min): a live coding problem in CoderPad, any mainstream language.\n- System Design (45 min): design a backend service end to end; expect to discuss payments-style consistency and idempotency.\n\nPlease reply if the time doesn't work.\n\nBest,\nPriya Raman\nTechnical Recruiter, Brightharbor Payments",
+      "attachments": [
+        {
+          "filename": "invite.ics",
+          "mime_type": "text/calendar",
+          "content": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Test Set//EN\nMETHOD:REQUEST\nBEGIN:VEVENT\nUID:tset01@brightharbor.example\nDTSTART;TZID=America/New_York:20261113T130000\nDTEND;TZID=America/New_York:20261113T143000\nSUMMARY:Brightharbor Payments - Virtual Onsite\nLOCATION:https://meet.brightharbor.example/onsite-4471\nDESCRIPTION:Coding (45 min) + System Design (45 min)\nEND:VEVENT\nEND:VCALENDAR\n"
+        }
+      ],
+      "_expected": "interview_invite: Brightharbor Payments, Senior Backend Engineer, senior, coding + system_design, Nov 13 10:00 AM PT from the .ics"
+    },
+    {
+      "id": "tset02",
+      "thread_id": "tset-b",
+      "from": "Daniel Okafor <dokafor@quillstonehealth.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Next steps - Software Engineer II",
+      "date": "2026-11-04T11:40:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nThanks for applying to the Software Engineer II position at Quillstone Health. The hiring manager would like to set up a 45-minute behavioral conversation over the phone.\n\nCould you send me two or three times next week that work for you?\n\nThanks,\nDaniel Okafor\nRecruiting Coordinator, Quillstone Health",
+      "attachments": [],
+      "_expected": "scheduling_request without a date: Quillstone Health, Software Engineer II, mid, behavioral; status waiting"
+    },
+    {
+      "id": "tset03",
+      "thread_id": "tset-b",
+      "from": "Daniel Okafor <dokafor@quillstonehealth.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Re: Next steps - Software Engineer II",
+      "date": "2026-11-05T08:20:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nYou're confirmed for Tuesday, November 10, 2026 at 11:30 AM PT. Sarah Lin (Engineering Manager) will call you at the number on your application. Plan for about 45 minutes of behavioral questions.\n\nThanks,\nDaniel",
+      "attachments": [],
+      "_expected": "same thread as tset02: updates the Quillstone record with the date (Nov 10 11:30 AM PT); no new doc"
+    },
+    {
+      "id": "tset04",
+      "thread_id": "tset-c",
+      "from": "Marcus Bell <marcus@talentbridge-staffing.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Onsite with our client Orbitline Logistics",
+      "date": "2026-11-04T14:05:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nI'm reaching out on behalf of my client, Orbitline Logistics, for the Staff Software Engineer opening on their routing platform. They'd like you to come onsite in Seattle on Wednesday, November 18, 2026 starting at 9:00 AM PT.\n\nThe loop is four rounds: coding, low-level design (object-oriented design of a dispatch component), system design, and a behavioral round with the director.\n\nLet me know you're confirmed and I'll send the address.\n\nMarcus Bell\nTalentBridge Staffing",
+      "attachments": [],
+      "_expected": "agency email: company is Orbitline Logistics (not TalentBridge), staff, 4 rounds, Nov 18 9:00 AM PT"
+    },
+    {
+      "id": "tset05",
+      "thread_id": "tset-d",
+      "from": "Elena Novak <elena@recruit.fernwood.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Quick question about your next move",
+      "date": "2026-11-04T09:30:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nI came across your profile and think you'd be a strong fit for a few backend roles at Fernwood Analytics. Are you open to new opportunities? If so, I'd love to set up a 15-minute intro call sometime.\n\nCheers,\nElena Novak\nSourcer, Fernwood Analytics",
+      "attachments": [],
+      "_expected": "recruiter_outreach (no interview scheduled): no prep doc"
+    },
+    {
+      "id": "tset06",
+      "thread_id": "tset-e",
+      "from": "Kestrel Robotics Careers <no-reply@careers.kestrelrobotics.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Update on your application",
+      "date": "2026-11-05T07:10:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nThank you for your interest in the Software Engineer role at Kestrel Robotics. After careful review, we've decided to move forward with other candidates at this time. We'll keep your resume on file.\n\nKestrel Robotics Talent Team",
+      "attachments": [],
+      "_expected": "rejection: nothing to prep; no doc (or close a matching record if one exists)"
+    },
+    {
+      "id": "tset07",
+      "thread_id": "tset-f",
+      "from": "Prize Center <winner@lucky-rewards-now.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "CONGRATULATIONS Minal!!! You've been selected for a $500 gift card",
+      "date": "2026-11-04T03:12:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Dear valued customer,\n\nYou have been SELECTED to receive a $500 gift card! This offer expires in 24 hours. Click the link below to claim your reward before it's gone.\n\nhttp://claim.lucky-rewards-now.example/reward\n\nThis is a limited-time promotion. Reply STOP to opt out.",
+      "attachments": [],
+      "_expected": "junk: not interview related; no doc"
+    },
+    {
+      "id": "tset08",
+      "thread_id": "tset-g",
+      "from": "KeyCraft <deals@keycraft-shop.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "48 hours only: 40% off mechanical keyboards",
+      "date": "2026-11-04T08:00:00-08:00",
+      "category": "promotions",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Our biggest sale of the season is here. Take 40% off every mechanical keyboard and keycap set through Friday. Free shipping on orders over $50.\n\nShop now: https://keycraft-shop.example/sale\n\nUnsubscribe | View in browser",
+      "attachments": [],
+      "_expected": "promotions tab: skipped by the poll query (-category:promotions)"
+    },
+    {
+      "id": "tset09",
+      "thread_id": "tset-h",
+      "from": "CloudDesk <hello@clouddesk.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Ace your next technical interview with CloudDesk Pro",
+      "date": "2026-11-04T12:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nPreparing for interviews? CloudDesk Pro gives you a cloud dev environment with 200+ practice problems, mock interview timers, and system design templates. Start your 14-day free trial today, no credit card required.\n\nhttps://clouddesk.example/trial\n\nYou're receiving this because you signed up for CloudDesk updates. Unsubscribe",
+      "attachments": [],
+      "_expected": "advertising in the primary tab that mentions interviews: should be classified as not an interview; no doc"
+    },
+    {
+      "id": "tset10",
+      "thread_id": "tset-i",
+      "from": "Learnwise <courses@learnwise.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Week 3 is live: Graph Algorithms (BFS, DFS, Dijkstra)",
+      "date": "2026-11-04T16:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nWeek 3 of Algorithms for Interviews is now available. This week: breadth-first search, depth-first search, and Dijkstra's algorithm, with 6 graded coding exercises due Sunday, November 8 at 11:59 PM.\n\nKeep up the streak!\nThe Learnwise Team",
+      "attachments": [],
+      "_expected": "education email with a due date and coding topics: not an interview; no doc"
+    },
+    {
+      "id": "tset11",
+      "thread_id": "tset-j",
+      "from": "UC Alumni Career Services <careers@alumni.ucwestfield.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Mock interview workshop + Fall Career Fair (Nov 20)",
+      "date": "2026-11-05T06:30:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hello Westfield alumni,\n\nJoin us for a free mock technical interview workshop on Saturday, November 14 at 10:00 AM PT (Zoom), followed by the Fall Career Fair on Friday, November 20 with 40+ employers hiring software engineers.\n\nRSVP on the alumni portal.\n\nAlumni Career Services, University of Westfield",
+      "attachments": [],
+      "_expected": "education/event: a 'mock interview' at a date is not a real interview; no doc"
+    },
+    {
+      "id": "tset12",
+      "thread_id": "tset-k",
+      "from": "Jordan Lee <jordan.lee@vantaview.example>",
+      "to": "Minal <you@example.com>",
+      "subject": "Vantaview - phone screen confirmed",
+      "date": "2026-11-05T08:45:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Minal,\n\nConfirming your 60-minute technical phone screen for the Senior Frontend Engineer role at Vantaview on Monday, November 16, 2026 at 1:00 PM PT. It will be a coding interview in a shared editor; questions focus on JavaScript, arrays and strings, and some DOM manipulation.\n\nSpeak soon,\nJordan Lee\nEngineering Recruiter, Vantaview",
+      "attachments": [],
+      "_expected": "interview_invite: Vantaview, Senior Frontend Engineer, coding, Nov 16 1:00 PM PT, focus topics from the body"
+    }
+  ]
+}

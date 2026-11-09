@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m05a",
+      "thread_id": "t05",
+      "from": "Chris Vale <chris@apexstaffing.io>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Interview opportunity - Senior Software Engineer",
+      "date": "2026-11-03T16:20:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nI'm working with a confidential client, a fast-growing fintech, on a Senior Software Engineer search. They'd like to set up a coding interview with you on Tuesday, November 17, 2026 at 11:00 AM PT.\n\nI can't share the company name yet. Let me know if that works!\n\nChris Vale\nApex Staffing",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m04a",
+      "thread_id": "t04",
+      "from": "Maya Brooks <maya@talentbridge-recruiting.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Interview confirmed - Senior Software Engineer (Perception Infrastructure)",
+      "date": "2026-11-02T08:45:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nGreat news! My client, Helios Robotics, would like to interview you for their Senior Software Engineer (Perception Infrastructure) position.\n\nThe interview is on Friday, November 13, 2026 at 9:00 AM ET via Google Meet: a 60-minute coding session followed by a 45-minute behavioral interview with the engineering manager.\n\nBest,\nMaya Brooks\nTalentBridge Recruiting",
+      "attachments": []
+    }
+  ]
+}

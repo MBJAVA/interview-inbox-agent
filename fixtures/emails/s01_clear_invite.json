@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m01a",
+      "thread_id": "t01",
+      "from": "Priya Shah <priya.shah@ledgerly.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Ledgerly interview invitation: Senior Backend Engineer",
+      "date": "2026-11-03T10:15:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThanks for your time on the recruiter call. We'd like to invite you to interview for the Senior Backend Engineer role at Ledgerly.\n\nYour virtual interview is on Thursday, November 12, 2026 at 10:00 AM PT over Zoom and has two parts:\n- 60 min coding (we use CoderPad)\n- 60 min system design\n\nJob description: https://jobs.ledgerly.com/senior-backend-engineer\n\nBest,\nPriya Shah\nRecruiting, Ledgerly",
+      "attachments": []
+    }
+  ]
+}

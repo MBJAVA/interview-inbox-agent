@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m02a",
+      "thread_id": "t02",
+      "from": "Dana Kim <dana@brightpath.io>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Next steps with Brightpath - Software Engineer II",
+      "date": "2026-11-04T14:02:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThe team enjoyed your application for Software Engineer II (mid-level) at Brightpath. The next step is a 45-minute technical phone screen focused on coding.\n\nCould you share your availability for next week? I'll send a calendar invite once we lock a time.\n\nThanks,\nDana Kim, Brightpath Talent",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": "m12a",
+      "thread_id": "t12a",
+      "from": "Tessellate Careers <no-reply@tessellate.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Thanks for applying to Tessellate",
+      "date": "2026-10-20T12:00:00-07:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThank you for applying for the Senior Software Engineer, Data Platform position at Tessellate. Our team will review your application.\n\nJob posting: https://careers.tessellate.com/jobs/senior-software-engineer-data-platform\n\nTessellate Talent Team",
+      "attachments": []
+    },
+    {
+      "id": "m12b",
+      "thread_id": "t12b",
+      "from": "Omar Haddad <omar@tessellate.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Scheduling your technical interview",
+      "date": "2026-11-04T10:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe'd like to schedule your technical interview (live coding, 60 minutes) on Tuesday, November 17, 2026 at 2:00 PM PT via Zoom.\n\nThanks,\nOmar Haddad, Tessellate Recruiting",
+      "attachments": []
+    }
+  ]
+}

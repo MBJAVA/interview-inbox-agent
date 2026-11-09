@@ -1,0 +1,81 @@
+# Interview Prep Inbox Agent configuration.
+# Everything here can be changed without code changes.
+
+user:
+  timezone: America/Los_Angeles   # interview_datetime is normalized to this zone
+  role_family: software_engineer  # used by the role filter on question sources
+
+poller:
+  first_run_days: 14              # first run scans back this many days
+  base_query: "-category:promotions -category:social"
+  max_emails_per_run: 20
+  lock_stale_minutes: 60          # a lock older than this is considered abandoned
+
+handoff:
+  timeout_hours: 24               # unanswered handoffs proceed with a marked best guess
+
+budgets:
+  per_email_tool_calls: 40       # floor; curation raises it for big loops (below)
+  curator_tool_calls_per_slot: 2  # extra tool calls per question slot (search + generate/accept)
+  max_tool_calls: 120             # hard ceiling per email, however many rounds
+  per_email_tokens: 250000
+  per_feedback_tool_calls: 20
+  triage_max_iterations: 3
+  extraction_max_iterations: 5
+  extraction_bonus_iterations_after_answer: 2
+  curator_max_iterations: 5       # coverage loop iterations
+  curator_max_model_steps: 8      # model turns within one coverage iteration
+  feedback_max_iterations: 3
+
+triage:
+  low_confidence: [low]           # confidence levels that trigger a handoff
+
+extraction:
+  required_fields: [company, role, round_types]
+  wanted_fields: [level, interview_datetime, format, job_post]
+  default_level: senior           # slot mix used when the level can't be found
+
+# Slot targets per level and difficulty: [min, max].
+# The curator aims for max; coverage meets the goal at min; max is the hard cap
+# (unless a stored count override applies for that round + difficulty).
+slots:
+  staff:     {hard: [3, 3], medium: [3, 3], easy: [0, 1]}
+  principal: {hard: [3, 3], medium: [3, 3], easy: [0, 1]}
+  senior:    {hard: [2, 3], medium: [3, 3], easy: [0, 1]}
+  mid:       {medium: [3, 3], easy: [2, 3], hard: [1, 2]}
+  junior:    {easy: [3, 3], medium: [2, 3], hard: [0, 1]}
+
+# Fill order inside a round (per level).
+fill_order:
+  staff: [hard, medium, easy]
+  principal: [hard, medium, easy]
+  senior: [hard, medium, easy]
+  mid: [medium, easy, hard]
+  junior: [easy, medium, hard]
+
+company_search:
+  include_domains: [leetcode.com, reddit.com, hellointerview.com, interviewing.io, igotanoffer.com, glassdoor.com]
+  recency_months: 24
+
+research:
+  seo_prep_domains: [igotanoffer.com, interviewquery.com, prepfully.com, designgurus.io, exponent.com]
+
+labels:
+  processed: "Interview Prep/Processed"
+  needs_input: "Interview Prep/Needs Input"
+  waiting: "Interview Prep/Waiting"
+
+drive:
+  folder_name: "Interview Prep"
+
+paths:
+  db: data/agent.sqlite
+  checkpoints: data/checkpoints.sqlite
+  lock: data/run.lock
+  output: output
+  mock_drive: output/mock_drive
+  question_bank: data/questions.json
+
+mock:
+  # In mock mode the clock is pinned so fixture emails never "age out".
+  now: "2026-11-05T09:00:00-08:00"

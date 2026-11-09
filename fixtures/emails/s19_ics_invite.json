@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "id": "m19a",
+      "thread_id": "t19",
+      "from": "Calendar <calendar@lumenanalytics.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Invitation: Lumen Analytics - Senior Software Engineer - System Design Interview",
+      "date": "2026-11-04T13:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nYou're invited to a system design interview for the Senior Software Engineer role at Lumen Analytics. Please see the attached calendar invite for the time (it's on Friday at 2).\n\nLumen Analytics Recruiting",
+      "attachments": [
+        {
+          "filename": "invite.ics",
+          "mime_type": "text/calendar",
+          "content": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Fixture//EN\nMETHOD:REQUEST\nBEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261113T140000\nDTEND;TZID=America/New_York:20261113T150000\nSUMMARY:Lumen Analytics - System Design Interview\nLOCATION:https://meet.example.com/lumen\nDESCRIPTION:System design interview, 60 minutes\nEND:VEVENT\nEND:VCALENDAR\n"
+        }
+      ]
+    }
+  ]
+}

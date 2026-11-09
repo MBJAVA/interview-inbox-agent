@@ -1,0 +1,12 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "interview_prep": "./graph/parent_graph.py:graph",
+    "triage_agent": "./graph/studio.py:triage",
+    "extraction_agent": "./graph/studio.py:extraction",
+    "curator_agent": "./graph/studio.py:curator",
+    "feedback_agent": "./graph/studio.py:feedback"
+  },
+  "env": ".env",
+  "python_version": "3.12"
+}

@@ -1,0 +1,10 @@
+{
+  "https://jobs.ledgerly.com/senior-backend-engineer": {"status": 200, "text": "Ledgerly - Senior Backend Engineer (Payments Platform)\nLedgerly builds payment infrastructure for online marketplaces: payouts, ledgers, and reconciliation.\nLevel: Senior (L5). You will design and operate high-throughput payment APIs in Go and Python on Postgres and Kafka, own idempotency and exactly-once money movement, and mentor engineers.\nRequirements: 5+ years building distributed backend systems; strong data modeling; experience with payments or financial ledgers is a plus.\nInterview loop: coding, system design, and a values interview."},
+  "https://careers.tessellate.com/jobs/senior-software-engineer-data-platform": {"status": 200, "text": "Tessellate - Senior Software Engineer, Data Platform\nTessellate is an analytics company for retailers. Build batch and streaming pipelines in Scala and Python on Spark, Kafka, and Iceberg. Senior level: lead designs for data ingestion and query serving. 5+ years experience."},
+  "https://marlowehealth.com/careers/senior-software-engineer-old": {"status": 404, "text": "Not Found"},
+  "https://northwindlabs.com/jobs/senior-software-engineer-payments": {"status": 200, "text": "Northwind Labs - Senior Software Engineer, Payments\nNorthwind Labs runs card issuing and payments for small businesses. Senior engineers build card authorization, ledgers, and fraud checks in Java and Kotlin with Postgres and Kafka. 5+ years experience; payments experience preferred."},
+  "https://www.reddit.com/r/cscareerquestions/comments/ledgerly_sd": {"status": 200, "text": "thread"},
+  "https://leetcode.com/discuss/interview-question/ledgerly-onsite": {"status": 200, "text": "thread"},
+  "https://www.reddit.com/r/leetcode/comments/northwind_coding": {"status": 200, "text": "thread"},
+  "https://leetcode.com/discuss/interview-question/northwind-old-thread": {"status": 404, "text": "Not Found"}
+}

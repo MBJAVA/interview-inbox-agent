@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": "m13a",
+      "thread_id": "t13",
+      "from": "Scheduling Team <scheduling@pyxis.dev>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Pyxis interview details - Senior Software Engineer",
+      "date": "2026-11-02T09:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nYour interview for the Senior Software Engineer role at Pyxis on Thursday, November 19, 2026 at 10:00 AM PT will be a system design round with two engineers.\n\nPyxis Scheduling",
+      "attachments": []
+    },
+    {
+      "id": "m13b",
+      "thread_id": "t13",
+      "from": "Ana Ruiz <ana@pyxis.dev>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Re: Pyxis interview details - Senior Software Engineer",
+      "date": "2026-11-04T15:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nQuick reminder about your coding interview on Thursday, November 19, 2026 at 10:00 AM PT. Bring your favorite language; it will be a live coding round only.\n\nAna Ruiz, Pyxis Recruiting",
+      "attachments": []
+    }
+  ]
+}

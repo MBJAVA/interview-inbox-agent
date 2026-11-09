@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m15a",
+      "thread_id": "t15",
+      "from": "Jon Bell <jon@marlowehealth.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Marlowe Health interview: Senior Software Engineer",
+      "date": "2026-11-03T09:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nWe'd like to invite you to interview for the Senior Software Engineer role at Marlowe Health on Monday, November 16, 2026 at 11:00 AM PT over video: one coding round and one behavioral round.\n\nJob description: https://marlowehealth.com/careers/senior-software-engineer-old\n\nJon Bell, Marlowe Health",
+      "attachments": []
+    }
+  ]
+}

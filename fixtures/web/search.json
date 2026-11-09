@@ -1,0 +1,120 @@
+[
+ {
+  "match_all": [
+   "ledgerly",
+   "process"
+  ],
+  "kind": "process",
+  "results": [
+   {
+    "url": "https://www.glassdoor.com/Interview/Ledgerly-Interview-Questions.htm",
+    "title": "Ledgerly interview questions (Glassdoor)",
+    "content": "Senior backend loop: recruiter call, 60 min coding on CoderPad, 60 min system design about payments, values interview. Reported 2026."
+   },
+   {
+    "url": "https://igotanoffer.com/blogs/tech/ledgerly-interview",
+    "title": "Ledgerly interview guide",
+    "content": "Ledgerly software engineer interviews include coding, system design and behavioral rounds."
+   }
+  ]
+ },
+ {
+  "match_all": [
+   "corvid",
+   "process"
+  ],
+  "kind": "process",
+  "results": [
+   {
+    "url": "https://www.glassdoor.com/Interview/Corvid-AI-Interview-Questions.htm",
+    "title": "Corvid AI interview",
+    "content": "Staff platform candidates report: phone screen, system design with the platform team, behavioral with hiring manager. Some report an extra coding round."
+   },
+   {
+    "url": "https://www.reddit.com/r/cscareerquestions/comments/corvid_staff",
+    "title": "Corvid AI staff loop",
+    "content": "Had system design (multi-tenant job scheduler) and behavioral."
+   }
+  ]
+ },
+ {
+  "match_all": [
+   "kestrel",
+   "process"
+  ],
+  "kind": "process",
+  "results": [
+   {
+    "url": "https://igotanoffer.com/blogs/tech/kestrel-interview",
+    "title": "Kestrel interview guide",
+    "content": "Kestrel interviews include low level design and coding."
+   }
+  ]
+ },
+ {
+  "match_all": [
+   "ledgerly",
+   "system design"
+  ],
+  "kind": "questions",
+  "results": [
+   {
+    "url": "https://www.reddit.com/r/cscareerquestions/comments/ledgerly_sd",
+    "title": "Ledgerly senior SD: design an idempotent payouts API",
+    "content": "Asked to design a payouts API that never double-pays a seller even with client retries and partial failures. Senior backend, 2026."
+   },
+   {
+    "url": "https://igotanoffer.com/blogs/product-manager/ledgerly-pm-interview",
+    "title": "Ledgerly product manager interview",
+    "content": "PM candidates are asked how they would prioritize the payouts roadmap and define success metrics."
+   }
+  ]
+ },
+ {
+  "match_all": [
+   "ledgerly",
+   "coding"
+  ],
+  "kind": "questions",
+  "results": [
+   {
+    "url": "https://leetcode.com/discuss/interview-question/ledgerly-onsite",
+    "title": "Ledgerly onsite coding: reconcile two transaction logs",
+    "content": "Given two lists of transactions (id, amount, timestamp), return the ids missing from either list and the ids whose amounts differ. Constraints: up to 10^6 records each; O(n) expected. Hard follow-up: logs arrive as streams that don't fit in memory."
+   }
+  ]
+ },
+ {
+  "match_all": [
+   "northwind",
+   "coding"
+  ],
+  "kind": "questions",
+  "results": [
+   {
+    "url": "https://www.reddit.com/r/leetcode/comments/northwind_coding",
+    "title": "Northwind Labs coding: implement a token bucket rate limiter",
+    "content": "Implement a token bucket rate limiter class: input is a stream of (user_id, timestamp) requests, output allow/deny for each. Constraints: per-user capacity and refill rate; O(1) per request."
+   },
+   {
+    "url": "https://leetcode.com/discuss/interview-question/northwind-old-thread",
+    "title": "Northwind coding: card authorization hold expiry",
+    "content": "Given authorization holds (id, amount, expires_at) and a timeline of captures, output the balance at each query time. Constraints: up to 10^5 events."
+   }
+  ]
+ },
+ {
+  "match_all": [
+   "northwind",
+   "system design"
+  ],
+  "kind": "questions",
+  "results": [
+   {
+    "url": "https://www.reddit.com/r/cscareerquestions/comments/northwind_sd",
+    "title": "Northwind Labs SD: card authorization service",
+    "content": "Design a card authorization service with a 100ms latency budget, idempotent retries, and a ledger of holds and captures."
+   }
+  ]
+ }
+]

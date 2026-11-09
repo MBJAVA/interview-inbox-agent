@@ -1,0 +1,39 @@
+{
+ "messages": [
+  {
+   "id": "m25a",
+   "thread_id": "t25",
+   "from": "Corine McEntee <cmcentee@talent.paypal.com>",
+   "to": "Minal <minal@example.com>",
+   "subject": "Follow up",
+   "date": "2026-11-04T17:06:00-08:00",
+   "category": "primary",
+   "labels": [
+    "INBOX"
+   ],
+   "body": "Hi Minal,\n\nThank you for taking the time to connect with me this week, I'd like to get you moving forward.\n\nPlease suggest a few days and times that work well for you to complete our 60-minute Karat interview.\n\nAdditionally, I have attached the prep guide for the same. Please let me know if you have any questions\n\nBest,\nCorine",
+   "attachments": [
+    {
+     "filename": "Karat Interview Prep Guide.pdf",
+     "mime_type": "application/pdf",
+     "size": 1200,
+     "path": "fixtures/attachments/prep_guide_sample.pdf"
+    }
+   ]
+  },
+  {
+   "id": "m25b",
+   "thread_id": "t25b",
+   "from": "Karat Scheduling <scheduling@karat.com>",
+   "to": "Minal <minal@example.com>",
+   "subject": "Your Karat interview is confirmed",
+   "date": "2026-11-05T08:00:00-08:00",
+   "category": "primary",
+   "labels": [
+    "INBOX"
+   ],
+   "body": "Hi Minal,\n\nYour Karat interview with PayPal for the Software Engineer II position is confirmed for Thursday, November 12, 2026 at 2:00 PM PT. Your interviewer will meet you by video in the Karat Studio; the session is 60 minutes of live coding.\n\nGood luck!\nKarat Scheduling",
+   "attachments": []
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 764 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+60 760 Td
+(Technical Interview Prep Guide \(sample fixture\)) Tj T*
+() Tj T*
+(Format: 60 minutes over video with a professional interviewer.) Tj T*
+(About 10 minutes: walk through a recent project you built and the tradeoffs you made.) Tj T*
+(About 45 minutes: two or three coding problems of increasing difficulty in a shared editor.) Tj T*
+(About 5 minutes: your questions.) Tj T*
+() Tj T*
+(Language: use any mainstream language you are comfortable with. Your code should run.) Tj T*
+(Topics that often come up: hash maps, strings, arrays, graphs and BFS/DFS, sorting,) Tj T*
+(and basic complexity analysis. No system design in this session.) Tj T*
+() Tj T*
+(Tips: think out loud, test your code with examples, and handle edge cases.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001056 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1126
+%%EOF

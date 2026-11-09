@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m14a",
+      "thread_id": "t14",
+      "from": "Grace Liu <grace@kestrel.systems>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Kestrel interview: Staff Software Engineer",
+      "date": "2026-11-03T11:00:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nThanks for your interest in the Staff Software Engineer role at Kestrel. Your next interview is a 75-minute low-level design (object-oriented design) round on Thursday, November 19, 2026 at 1:00 PM PT via Zoom.\n\nKestrel builds storage infrastructure for trading firms.\n\nGrace Liu, Kestrel Recruiting",
+      "attachments": []
+    }
+  ]
+}

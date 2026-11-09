@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "id": "m10a",
+      "thread_id": "t10",
+      "from": "Ella Grant <ella@vantagehq.com>",
+      "to": "Sam Rivera <sam.rivera@example.com>",
+      "subject": "Exploring opportunities at Vantage",
+      "date": "2026-11-03T07:30:00-08:00",
+      "category": "primary",
+      "labels": [
+        "INBOX"
+      ],
+      "body": "Hi Sam,\n\nI came across your profile and was impressed by your backend work. Vantage is growing its platform team. Would you be open to a quick chat about opportunities here sometime?\n\nElla Grant, Talent Partner at Vantage",
+      "attachments": []
+    }
+  ]
+}
