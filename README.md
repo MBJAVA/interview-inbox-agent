@@ -2,7 +2,7 @@
 
 > **My agent helps a job-seeking software engineer turn interview emails into a ready practice package in Gmail and Google Drive**, replacing manually reading recruiter emails, piecing together interview details, and hunting for relevant questions. It does detection, extraction, research, question curation, document creation, and revision on its own using ~14 tools, hands off to the user only when an email's intent or interview details are ambiguous, conflicting, or can't be found, and I'll know it works when a new interview email becomes a Google Doc with correct interview details and a curated, link-checked question list in under 3 minutes, with ≥90% correct detection and extraction on a test set of emails.
 
-There is no chat. The agent runs on a schedule (`cli.py run --every 15m`). You interact through **comments on the prep doc**, `cli.py refine`, and `cli.py answer` when the agent hands off a decision.
+There is no chat. The agent runs **on a schedule** (`cli.py run --every 15m`, which keeps polling Gmail until you stop it) or **on demand** (`cli.py run --once` processes new mail right now and exits; add `--query`/`--limit` to target specific emails, or `rebuild`/`refine` an existing doc). You interact through **comments on the prep doc**, `cli.py refine`, and `cli.py answer` when the agent hands off a decision.
 
 ---
 
@@ -223,9 +223,19 @@ You still need a model API key for real decisions. For CI or to try the plumbing
 
 ### Commands
 
+On demand: process new mail once and exit.
+
 ```bash
 .venv/bin/python cli.py run --once
 ```
+
+On demand, targeted: only emails matching a Gmail search (doesn't move the poll watermark).
+
+```bash
+.venv/bin/python cli.py run --once --query 'from:recruiter@company.com newer_than:7d' --limit 5
+```
+
+On a schedule: poll every 15 minutes until stopped (Ctrl+C). Each run also picks up new doc comments.
 
 ```bash
 .venv/bin/python cli.py run --every 15m
